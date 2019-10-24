@@ -1,6 +1,6 @@
 <p><span style="font-size:14px"># DigisparkUSBwriter<br />
 <strong>Код написан (если можно это назвать кодом) и отлажен за пару вечеров, если хотите его оптимизировать и улучшить то я буду только рад.&nbsp;</strong><br />
-Прошивка вводит текст в целевую систему&nbsp;через&nbsp;плату&nbsp;<strong>Digispark</strong>&nbsp;&nbsp;используя Alt Коды (<strong><span style="color:#FF0000">Only Windows</span></strong> (<strong>проверено на <span style="color:#008000">Win 7, WIn 10</span></strong>), <strong><span style="color:#008000">работает без учёта Numlock и вне зависимости от установленного языка</span></strong>)</span><br />
+Прошивка вводит текст в целевую систему&nbsp;через&nbsp;плату&nbsp;<strong>Digispark</strong>&nbsp;&nbsp;используя Alt Коды (<strong><span style="color:#FF0000"></span></strong> (<strong>проверено на <span style="color:#008000">Win 7, WIn 10, Raspbian</span></strong>), <strong><span style="color:#008000">работает без учёта Numlock и вне зависимости от установленного языка</span></strong>)</span><br />
 <span style="font-size:16px"><strong>Возможности данной прошивки:</strong></span><br />
 &nbsp; &nbsp;<span style="font-size:14px"> Вызов CMD.<br />
 &nbsp; &nbsp; Ввод текста на английском, символы доступные для ввода:&nbsp;</span></p>
